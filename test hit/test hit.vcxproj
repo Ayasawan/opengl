@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F0CF2632-ABC8-44AB-B87D-3EB915FC54C3}</ProjectGuid>
+    <RootNamespace>testhit</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GLAUX.lib;GLU32.lib;glut.lib;glut32.lib;OPENGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AddModuleNamesToAssembly>legacy_stdio_definitions.lib;%(AddModuleNamesToAssembly)</AddModuleNamesToAssembly>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Game\Game\camera.cpp" />
+    <ClCompile Include="..\..\Game\Game\texture.cpp" />
+    <ClCompile Include="E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\3DTexture.cpp" />
+    <ClCompile Include="E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\heightMap.cpp" />
+    <ClCompile Include="E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\Model_3DS.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\ANT_BLK\ANT_BLK.3DS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ANT_BLK.bmp" />
+    <Image Include="ANT_BLKt.bmp" />
+    <Image Include="case\back.bmp" />
+    <Image Include="case\front.bmp" />
+    <Image Include="case\inner.bmp" />
+    <Image Include="case\left.bmp" />
+    <Image Include="case\right.bmp" />
+    <Image Include="collor\grey.bmp" />
+    <Image Include="collor\orang.bmp" />
+    <Image Include="display\disctop.bmp" />
+    <Image Include="display\google.bmp" />
+    <Image Include="display\main.bmp" />
+    <Image Include="display\off.bmp" />
+    <Image Include="display\runp.bmp" />
+    <Image Include="display\vc.bmp" />
+    <Image Include="parta\abstract-technologyy.bmp" />
+    <Image Include="parta\full.bmp" />
+    <Image Include="parta\gCir.bmp" />
+    <Image Include="parta\gr.bmp" />
+    <Image Include="parta\mBground.bmp" />
+    <Image Include="parta\n.bmp" />
+    <Image Include="parta\redG.bmp" />
+    <Image Include="parta\tech.bmp" />
+    <Image Include="parta\view.bmp" />
+    <Image Include="parta\wg.bmp" />
+    <Image Include="parts\black.bmp" />
+    <Image Include="parts\ddr.bmp" />
+    <Image Include="parts\display.bmp" />
+    <Image Include="parts\dr.bmp" />
+    <Image Include="parts\fan.bmp" />
+    <Image Include="parts\ioi.bmp" />
+    <Image Include="parts\keybord.bmp" />
+    <Image Include="parts\keybordp.bmp" />
+    <Image Include="parts\motherboard.bmp" />
+    <Image Include="parts\NVIDIA.bmp" />
+    <Image Include="parts\power.bmp" />
+    <Image Include="parts\processor.bmp" />
+    <Image Include="parts\ramB.bmp" />
+    <Image Include="parts\ramF.bmp" />
+    <Image Include="parts\usb.bmp" />
+    <Image Include="room\black texture.bmp" />
+    <Image Include="room\wall.bmp" />
+    <Image Include="table\table.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\room">
+      <UniqueIdentifier>{56a0ef74-87ff-4e3f-944e-e8e6d0f3825a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\table">
+      <UniqueIdentifier>{5057f347-3861-407c-9757-61f38829fa66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\case">
+      <UniqueIdentifier>{c6278a79-5651-4f75-a750-b09cc7c7dd82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\parts">
+      <UniqueIdentifier>{6dc1703c-97f3-420b-9dba-99c8458572d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\display">
+      <UniqueIdentifier>{e65b37f9-3b63-4826-88bf-8df955c116c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collor">
+      <UniqueIdentifier>{75563522-d493-4ff7-907d-3c0a37018605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\parta">
+      <UniqueIdentifier>{010bc452-94a7-4616-884b-3736181e8c74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Game\Game\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Game\Game\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\3DTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\heightMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\Model_3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\ANT_BLK\ANT_BLK.3DS">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ANT_BLK.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="ANT_BLKt.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="room\black texture.bmp">
+      <Filter>Source Files\room</Filter>
+    </Image>
+    <Image Include="table\table.bmp">
+      <Filter>Source Files\table</Filter>
+    </Image>
+    <Image Include="case\back.bmp">
+      <Filter>Source Files\case</Filter>
+    </Image>
+    <Image Include="case\front.bmp">
+      <Filter>Source Files\case</Filter>
+    </Image>
+    <Image Include="case\right.bmp">
+      <Filter>Source Files\case</Filter>
+    </Image>
+    <Image Include="parts\keybord.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\display.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="case\inner.bmp">
+      <Filter>Source Files\case</Filter>
+    </Image>
+    <Image Include="parts\motherboard.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\black.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="display\disctop.bmp">
+      <Filter>Source Files\display</Filter>
+    </Image>
+    <Image Include="display\google.bmp">
+      <Filter>Source Files\display</Filter>
+    </Image>
+    <Image Include="display\main.bmp">
+      <Filter>Source Files\display</Filter>
+    </Image>
+    <Image Include="display\vc.bmp">
+      <Filter>Source Files\display</Filter>
+    </Image>
+    <Image Include="display\off.bmp">
+      <Filter>Source Files\display</Filter>
+    </Image>
+    <Image Include="display\runp.bmp">
+      <Filter>Source Files\display</Filter>
+    </Image>
+    <Image Include="room\wall.bmp">
+      <Filter>Source Files\room</Filter>
+    </Image>
+    <Image Include="case\left.bmp">
+      <Filter>Source Files\case</Filter>
+    </Image>
+    <Image Include="collor\grey.bmp">
+      <Filter>Source Files\collor</Filter>
+    </Image>
+    <Image Include="parts\power.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\ramF.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\ramB.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\fan.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\NVIDIA.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\ddr.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\dr.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="collor\orang.bmp">
+      <Filter>Source Files\collor</Filter>
+    </Image>
+    <Image Include="parts\processor.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\ioi.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\usb.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parts\keybordp.bmp">
+      <Filter>Source Files\parts</Filter>
+    </Image>
+    <Image Include="parta\abstract-technologyy.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\full.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\gCir.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\gr.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\mBground.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\n.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\redG.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\tech.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\view.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+    <Image Include="parta\wg.bmp">
+      <Filter>Source Files\parta</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

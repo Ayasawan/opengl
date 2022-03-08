@@ -1,0 +1,20 @@
+﻿Build started 1/6/2022 5:50:25 PM.
+     1>Project "C:\Users\ASUS\Desktop\Ants\test hit\test hit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Game\Game\camera.cpp ..\..\Game\Game\texture.cpp "E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\3DTexture.cpp" "E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\Model_3DS.cpp" "E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\heightMap.cpp"
+         heightMap.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\heightMap.cpp': Permission denied
+         Model_3DS.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\Model_3DS.cpp': Permission denied
+         3DTexture.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'E:\جامعة دمشق\السنة الثالثة\بيانيات حاسوبية\مساعدة\model\lib\3DTexture.cpp': Permission denied
+         texture.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\Game\Game\texture.cpp': No such file or directory
+         camera.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\Game\Game\camera.cpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\ASUS\Desktop\Ants\test hit\test hit.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.05
